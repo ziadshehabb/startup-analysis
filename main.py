@@ -16,8 +16,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title='Startup Case Study ', page_icon="🚀", layout = "wide")
 
 #Read Csv
-df = pd.read_csv("C:\\Users\\ziads\\Desktop\\Fall semester\\MSBA 310\\Final codes\\310 data\\2019-2020-exec-visits-v2.csv")
-
+df = pd.read_csv("https://raw.githubusercontent.com/ziadshehabb/startup-analysis/main/visits.csv")
 #Sidebar Navigation
 selected = st.sidebar.radio(" Navigation Menu ",["Overview","Sales","Customers","Machine Learning"], index = 0)
 
